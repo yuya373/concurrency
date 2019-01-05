@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/yuya373/concurrency/chapter3"
+	// "github.com/yuya373/concurrency/chapter3"
+	"github.com/yuya373/concurrency/chapter4"
 )
 
 func main() {
@@ -25,5 +26,28 @@ func main() {
 	// chapter3.SelectMultiple()
 	// chapter3.SelectTimeout()
 	// chapter3.SelectDefault()
-	chapter3.SelectBreak()
+	// chapter3.SelectBreak()
+	// chapter4.AdhocBind()
+	// chapter4.LexicalBind()
+	// chapter4.SimpleLeak()
+	// chapter4.FixSimpleLeak()
+	// chapter4.SendLeak()
+	// chapter4.FixSendLeak()
+	// chapter4.Or()
+	// chapter4.PrintError()
+	// chapter4.HandleError()
+	// chapter4.BasicPipeline()
+	// chapter4.ChannelPipeline()
+	// chapter4.Repeat()
+	// chapter4.RepeatFn()
+	// chapter4.NaivePrimeFinder()
+	// chapter4.FanOutFanInPrimeFinder()
+	// chapter4.OrDone()
+	// chapter4.Tee()
+	// chapter4.Bridge()
+	// chapter4.GreetingAndFarewell()
+	// chapter4.GreetingAndFarewellWithContext()
+	// chapter4.DataBag()
+	// chapter4.SafeMapKey()
+	chapter4.SafeDataBag()
 }
