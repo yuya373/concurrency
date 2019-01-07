@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	// "github.com/yuya373/concurrency/chapter3"
-	"github.com/yuya373/concurrency/chapter4"
+	// "github.com/yuya373/concurrency/chapter4"
+	"github.com/yuya373/concurrency/chapter5"
 )
 
 func main() {
@@ -49,5 +50,10 @@ func main() {
 	// chapter4.GreetingAndFarewellWithContext()
 	// chapter4.DataBag()
 	// chapter4.SafeMapKey()
-	chapter4.SafeDataBag()
+	// chapter4.SafeDataBag()
+	// chapter5.HeartBeat()
+	// chapter5.HeartBeatWithFail()
+	// chapter5.SimpleRateLimit()
+	// chapter5.MultiRateLimit()
+	chapter5.RestartUnhealty()
 }
